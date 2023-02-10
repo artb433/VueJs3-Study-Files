@@ -17,6 +17,7 @@
    <Greeting/>
    <Register/> 
    <Customer/>
+   <TextField/>
  
    
   </div>
@@ -24,13 +25,15 @@
  </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import TextField from './components/TextField.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+ 
+    TextField
+}
 }
 </script>
 
