@@ -14,8 +14,7 @@
    <!-- <Customer name="Rajan" age="25" /> -->
    <Employee/>
    <Counter/>
-   <Greeting/>
-   <Register/> 
+    
    <Customer/>
    <TextField/>
  
@@ -27,12 +26,19 @@
 <script>
 
 import TextField from './components/TextField.vue';
+import Employee from './components/Employee.vue';
+import Counter from './components/Counter.vue';
+
+import Customer from './components/Customer.vue';
 
 export default {
   name: 'App',
   components: {
- 
-    TextField
+    Employee,
+    TextField,
+    Counter,
+    Customer,
+
 }
 }
 </script>

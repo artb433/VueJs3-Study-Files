@@ -4,7 +4,8 @@
 
 <script>
 export default {
-  name: "Test",
+  // eslint-disable-next-line vue/multi-word-component-names
+  name: "Register",
   created() {},
   data() {
     return {};

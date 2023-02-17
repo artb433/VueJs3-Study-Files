@@ -16,6 +16,7 @@
 
 <script>
 export default {
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "Counter",
   created() {},
   data() {
@@ -32,6 +33,7 @@ export default {
       if (this.count!=0) {
         this.count=this.count - 1
       } else {
+        // eslint-disable-next-line no-self-assign
         this.count=this.count
       }
 
